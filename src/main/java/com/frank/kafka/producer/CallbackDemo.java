@@ -16,8 +16,8 @@ import org.apache.kafka.clients.producer.RecordMetadata;
  */
 public class CallbackDemo implements Callback {
 
-    private long successTotal;
-    private long errTotal;
+    private static long successTotal;
+    private static long errTotal;
 
     /**
      * 实现计数功能的回调函数
